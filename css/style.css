@@ -1,0 +1,52 @@
+/***** Reset CSS ***************************************************/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1em;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background-color: #e6e6e6;
+}
+
+a {
+    text-decoration: none;
+}
+
+/***** Formatações em Geral ****************************************/
+
+h1 {
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+.branco {
+    color: white;
+}
+
+/***** Menu ********************************************************/
+
+#area-cabecalho {
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+
+#area-logo,
+#area-menu {
+    padding: 10px;
+}
+
+a:link, a:visited {
+    color: #ffffff;
+    padding: 8px 12px;
+}
+
+a:hover {
+    color: #f7b600;
+    background-color: #ffffff;
+}
+
