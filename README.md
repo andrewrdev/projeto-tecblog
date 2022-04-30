@@ -1,7 +1,8 @@
 # projeto-tecblog
- Projeto de um blog fictício feito durante o curso Desenvolvimento Web Completo
+Projeto Front-End TecBlog desenvolvido com HTML e CSS
 
- - Um blog simples desenvolvido com HTML e CSS
- - Possui pequenas modificações realizadas por mim, diferentes da versão original do curso!
+ - ⭐ Front-End!
+ - 🚀 Projeto desenvolvido durante o curso de Desenvolvimento Web Completo na Udemy
+ - 👉 Tecnologias: HTML e CSS
 
 <img src="https://user-images.githubusercontent.com/84985099/120270434-f90dd300-c27f-11eb-8577-c1660cb23131.png" width="650px">

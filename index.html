@@ -1,141 +1,123 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>TecBlog - O seu Blog de tecnologia</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>TecBlog - O seu blog de tecnologia</title>
 </head>
-
 <body>
-    <!-- Topo -->
-    <div id="area-cabecalho">
-        <!-- Logo -->
-        <div id="area-logo">
-            <h1>Tec<span class="branco">Blog</span></h1>
+    <header class="top-menu">
+        <div class="container">
+            <h1><a href="index.html">Tec<span style="color: white;">Blog</span></a></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Jogos</a></li>
+                    <li><a href="#">Celulares</a></li>
+                    <li><a href="#">Informática</a></li>
+                    <li><a href="#">Eletrônicos</a></li>
+                </ul>
+            </nav>
         </div>
-        <!-- Menu -->
-        <div id="area-menu">
-            <a href="index.html">Home</a>
-            <a href="#">Jogos</a>
-            <a href="#">Celulares</a>
-            <a href="#">Informática</a>
-            <a href="#">Eletrônicos</a>
-        </div>
-    </div>
-    <!-- Conteúdo-->
-    <div id="area-principal">
-        <!-- Postagens-->
-        <div id="area-postagens">
-            <div class="postagem">
-                <!-- Postagen 1 -->
-                <h2>Título da postagem 1</h2>
-                <span class="data-postagem">postado em 20 de maio 2021</span>
-                <img src="img/imagem1.jpg" alt="Postagem 1">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt alias magnam, vero consectetur
-                    eligendi totam similique debitis voluptatem dolore in harum! Quo, nihil. Nemo deleniti neque
-                    consequatur, possimus fuga illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
-                    iure illum fugiat aliquam sequi accusantium sit possimus beatae quibusdam. Alias consequuntur quis,
-                    quaerat a aperiam at explicabo ad quidem debitis.</p>
-                <a href="#">Leia mais</a>
-            </div>
-            <!-- Postagen 2 -->
-            <div class="postagem">
-                <h2>Título da postagem 2</h2>
-                <span class="data-postagem">postado em 14 de maio 2021</span>
-                <img src="img/imagem2.jpg" alt="Postagem 1">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt alias magnam, vero consectetur
-                    eligendi totam similique debitis voluptatem dolore in harum! Quo, nihil. Nemo deleniti neque
-                    consequatur, possimus fuga illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
-                    iure illum fugiat aliquam sequi accusantium sit possimus beatae quibusdam. Alias consequuntur quis,
-                    quaerat a aperiam at explicabo ad quidem debitis.</p>
-                <a href="#">Leia mais</a>
-            </div>
-            <!-- Postagen 3 -->
-            <div class="postagem">
-                <h2>Título da postagem 3</h2>
-                <span class="data-postagem">postado em 10 de maio 2021</span>
-                <img src="img/imagem3.jpg" alt="Postagem 1">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt alias magnam, vero consectetur
-                    eligendi totam similique debitis voluptatem dolore in harum! Quo, nihil. Nemo deleniti neque
-                    consequatur, possimus fuga illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
-                    iure illum fugiat aliquam sequi accusantium sit possimus beatae quibusdam. Alias consequuntur quis,
-                    quaerat a aperiam at explicabo ad quidem debitis.</p>
-                <a href="#">Leia mais</a>
-            </div>
-            <!-- Postagen 4 -->
-            <div class="postagem">
-                <h2>Título da postagem 4</h2>
-                <span class="data-postagem">postado em 23 de abril 2021</span>
-                <img src="img/imagem4.jpg" alt="Postagem 1">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt alias magnam, vero consectetur
-                    eligendi totam similique debitis voluptatem dolore in harum! Quo, nihil. Nemo deleniti neque
-                    consequatur, possimus fuga illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
-                    iure illum fugiat aliquam sequi accusantium sit possimus beatae quibusdam. Alias consequuntur quis,
-                    quaerat a aperiam at explicabo ad quidem debitis.</p>
-                <a href="#">Leia mais</a>
-            </div>
-            <!-- Postagen 5 -->
-            <div class="postagem">
-                <h2>Título da postagem 5</h2>
-                <span class="data-postagem">postado em 11 de abril 2021</span>
-                <img src="img/imagem5.jpg" alt="Postagem 1">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt alias magnam, vero consectetur
-                    eligendi totam similique debitis voluptatem dolore in harum! Quo, nihil. Nemo deleniti neque
-                    consequatur, possimus fuga illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
-                    iure illum fugiat aliquam sequi accusantium sit possimus beatae quibusdam. Alias consequuntur quis,
-                    quaerat a aperiam at explicabo ad quidem debitis.</p>
-                <a href="#">Leia mais</a>
-            </div>
-        </div>
-        <!-- Menu Lateral -->
-        <div id="area-lateral">
-            <!-- Postagens Menu Lateral -->
-            <div class="conteudo-lateral">
-                <h3>Postagens recentes</h3>
-                <div class="postagem-lateral">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <a href="">Leia mais</a>
-                    <hr>
-                </div>
-                <div class="postagem-lateral">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <a href="">Leia mais</a>
-                    <hr>
-                </div>
-                <div class="postagem-lateral">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <a href="">Leia mais</a>
-                    <hr>
-                </div>
-                <div class="postagem-lateral">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <a href="">Leia mais</a>
-                    <hr>
-                </div>
-                <div class="postagem-lateral">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <a href="">Leia mais</a>
-                </div>
-            </div>
-            <!-- Categorias Menu Lateral -->
-            <div class="conteudo-lateral">
-                <h3>Categorias</h3>
-                <div class="postagem-lateral">
-                    <a href="">Jogos</a>
-                    <a href="">Celulares</a>
-                    <a href="">Informática</a>
-                    <a href="">Eletrônicos</a>
-                </div>
-            </div>
-        </div>
-        <!-- Clear Fix-->
-        <div class="clearfix"></div>
-        <!-- Rodapé -->
-        <div id="rodape"> &copy; Todos os direitos reservados</div>
-    </div>
-</body>
+    </header>
+    <section class="main">
+        <div class="container">
+            <div class="posts-area">
+                <article>
+                    <h2>Titulo da Postagem 1</h2>
+                    <h4>25 Março 2022</h4>
+                    <img src="assets/img/imagem1.jpg" alt="">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et scelerisque quam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent nulla turpis, gravida at nunc eu, luctus aliquam justo. Praesent eget risus vehicula
+                    </p>
+                    <a href="#">Leia Mais</a>
+                </article>
 
+                <article>
+                    <h2>Titulo da Postagem 2</h2>
+                    <h4>25 Março 2022</h4>
+                    <img src="assets/img/imagem2.jpg" alt="">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et scelerisque quam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent nulla turpis, gravida at nunc eu, luctus aliquam justo. Praesent eget risus vehicula
+                    </p>
+                    <a href="#">Leia Mais</a>
+                </article>
+
+                <article>
+                    <h2>Titulo da Postagem 3</h2>
+                    <h4>25 Março 2022</h4>
+                    <img src="assets/img/imagem3.jpg" alt="">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et scelerisque quam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent nulla turpis, gravida at nunc eu, luctus aliquam justo. Praesent eget risus vehicula
+                    </p>
+                    <a href="#">Leia Mais</a>
+                </article>
+
+                <article>
+                    <h2>Titulo da Postagem 4</h2>
+                    <h4>25 Março 2022</h4>
+                    <img src="assets/img/imagem4.jpg" alt="">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et scelerisque quam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent nulla turpis, gravida at nunc eu, luctus aliquam justo. Praesent eget risus vehicula
+                    </p>
+                    <a href="#">Leia Mais</a>
+                </article>
+
+                <article>
+                    <h2>Titulo da Postagem 5</h2>
+                    <h4>25 Março 2022</h4>
+                    <img src="assets/img/imagem5.jpg" alt="">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et scelerisque quam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent nulla turpis, gravida at nunc eu, luctus aliquam justo. Praesent eget risus vehicula
+                    </p>
+                    <a href="#">Leia Mais</a>
+                </article>
+            </div>
+            <aside class="sidebar">
+                <article class="recent-posts">
+                    <h3>Postagens Recentes</h3>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt pariatur...
+                    </p>
+                    <a href="#">Leia mais</a>
+
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt pariatur...
+                    </p>
+                    <a href="#">Leia mais</a>
+
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt pariatur...
+                    </p>
+                    <a href="#">Leia mais</a>
+
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt pariatur...
+                    </p>
+                    <a href="#">Leia mais</a>
+
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt pariatur...
+                    </p>
+                    <a href="#">Leia mais</a>
+                </article>
+
+                <article>
+                    <h3>Categorias</h3>
+                    <nav>
+                        <ul>
+                            <li><a href="#">Jogos</a></li>
+                            <li><a href="#">Celulares</a></li>
+                            <li><a href="#">Informática</a></li>
+                            <li><a href="#">Eletrônicos</a></li>
+                        </ul>
+                    </nav>
+                </article>
+            </aside>
+        </div>
+    </section>
+    <footer>&copy TecBlog - Todos os direitos reservados</footer>
+</body>
 </html>
